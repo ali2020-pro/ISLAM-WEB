@@ -114,8 +114,7 @@ footer {
     border-radius: 10px;
 }
 .brand-div{
-    display:grid;
-    grid-template-columns: 100px 1fr;
+    display:flex;
     vertical-align: middle;
     background-color: #1a6544;
     color: white;
