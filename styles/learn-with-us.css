@@ -88,9 +88,9 @@ footer {
 }
 
 .header{
-    display:grid;
-    grid-template-columns: 200px 1fr;
+    display:flex;
     justify-items: center;
+    flex-direction:column;
 }
 
 /* Default styling for larger screens */
