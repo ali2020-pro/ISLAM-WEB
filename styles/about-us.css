@@ -239,13 +239,14 @@ footer {
 }
 
 .header{
-    display:flex;
-    justify-content: center;
+    display:grid;
+    justify-items: center;
 }
 
 @media (max-width: 768px){
     header .header{
         display:flex;
+        flex:
     }
     .the-logo{
         width:100px;
