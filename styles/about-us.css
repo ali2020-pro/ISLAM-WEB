@@ -271,4 +271,8 @@ footer {
     .page-intro h1 {
         margin-bottom: 10px;
     }
+    logo{
+        width:100px;
+        heeight:100px;
+    }
 }
