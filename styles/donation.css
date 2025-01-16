@@ -115,7 +115,8 @@ footer {
 }
 .brand-div{
     display:flex;
-    vertical-align: middle;
+    justify-items:center;
+    flex-direction:column;
     background-color: #1a6544;
     color: white;
     font-family: Arial;
