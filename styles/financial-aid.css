@@ -26,9 +26,9 @@ body {
 }
 
 .brand-div{
-    display:grid;
-    grid-template-columns: 100px 1fr;
-    vertical-align: middle;
+    display:flex;
+    justify-items:center;
+    flex-direction:column;
     background-color: #1a6544;
     color: white;
     font-family: Arial;
