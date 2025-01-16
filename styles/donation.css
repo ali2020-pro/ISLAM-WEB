@@ -1,0 +1,141 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+}
+
+#donation-section {
+    padding: 50px 0;
+    background-color: #fff;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.donation-info {
+    width: 48%;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.donation-info h1 {
+    font-size: 20px;
+    margin-bottom: 15px;
+    color: #2c3e50;
+}
+
+.donation-info p {
+    font-size: 16px;
+    line-height: 1.8;
+    margin-bottom: 15px;
+    color: #555;
+}
+
+.donation-form {
+    width: 48%;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.donation-form h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    color: #2c3e50;
+}
+
+.donation-form label {
+    display: block;
+    font-size: 16px;
+    margin-bottom: 8px;
+    color: #333;
+}
+
+.donation-form input,
+.donation-form select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.donation-form button {
+    width: 100%;
+    padding: 12px;
+    background-color: #2ecc71;
+    color: #fff;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.donation-form button:hover {
+    background-color: #27ae60;
+}
+
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+    }
+
+    .donation-info,
+    .donation-form {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+}
+
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #f1f1f1;
+    color: #555;
+    margin-top: 40px;
+    border-radius: 10px;
+}
+.brand-div{
+    display:grid;
+    grid-template-columns: 100px 1fr;
+    vertical-align: middle;
+    background-color: #1a6544;
+    color: white;
+    font-family: Arial;
+    padding:2px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+.brand-div img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-right:5px;
+    display:inline-block;
+}
+
+.brand-div .brand-title{
+    color: white;
+    font-size: 32px;
+    vertical-align: middle;
+    padding-top: 30px;
+    padding-left: 5px;
+}

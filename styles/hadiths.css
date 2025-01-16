@@ -1,0 +1,109 @@
+/* General reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+    line-height: 1.6;
+}
+
+header {
+    text-align: center;
+    margin-top: 30px;
+    padding: 20px;
+    background-color: #004d40;
+    color: white;
+    border-radius: 8px;
+}
+
+header h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+header p {
+    font-size: 18px;
+}
+
+.container {
+    /* display: flex; */
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+
+#hadiths-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap; 
+    justify-content: space-around;
+}
+
+.hadith-panel {
+    width: 300px;
+    margin: 10px;
+    padding: 20px;
+    background-color: #ffffff;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.hadith-panel:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+.hadith-panel h2 {
+    font-size: 22px;
+    margin-bottom: 10px;
+    color: #004d40;
+}
+
+.hadith-panel p {
+    font-size: 16px;
+    color: #555;
+}
+
+.hadith-panel .author {
+    font-size: 15px;
+    color: #333;
+    margin-top: 10px;
+    font-style: italic;
+}
+.hadith-panel .arabic-text {
+    font-size: 20px;
+    color: #333;
+    margin-top: 10px;
+    font-style: italic;
+}
+.hadith-panel .translated-text {
+    font-size: 18px;
+    color: #333;
+    margin-top: 10px;
+    font-style: italic;
+}
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #004d40;
+    color: white;
+    margin-top: 40px;
+    border-radius: 8px;
+}
+.logo{
+    width:200px;
+    height:200px;
+    border-radius:50%;
+}
+
+.header{
+    display:grid;
+    grid-template-columns: 200px 1fr;
+    justify-items: center;
+}

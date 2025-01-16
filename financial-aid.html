@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Financial Aid Application">
+    <meta name="keywords" content="Financial Aid, Application, Support">
+    <title>Financial Aid Application</title>
+    <link rel="stylesheet" href="styles/financial-aid.css">
+</head>
+<body>
+    <main class="container">
+        <div class="column">
+            <div class="brand-div">
+                <img src="images/logo.webp" alt="Logo" class="brand-logo">
+                <h1 class="brand-name">ITHAD Islamiyyah Aid</h1>
+            </div>
+            <h3>Who is eligible for financial aid?</h3>
+            <p>To be eligible for financial aid, you must meet the following criteria:</p>
+            <ul>
+                <li>Be a resident of Uganda.</li>
+                <li>Muslim by religion.</li>
+                <li>Have a valid identification document.</li>
+                <li>Demonstrate financial need.</li>
+            </ul>
+            <h3>Types of Financial Aid</h3>
+            <p>We offer the following types of financial aid:</p>
+            <ul>
+                <li>School fees(orphans)</li>
+                <li>Welfare aid</li>
+                <li>Medical Assistance</li>
+            </ul>
+            <h3>Duration of Receiving Aid</h3>
+            <p>The duration of receiving aid varies based on the type of aid and individual circumstances. Typically, aid is provided for a period of 2 months to 6 months from the time of application.</p>
+            <h5>Note: You must have WhatsApp installed!</h5>
+        </div>
+        <div class="column">
+            <h2>Apply for Financial Aid</h2>
+            <form id="financial-aid-form">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="category">Category of Vulnerability:</label>
+                <select id="category" name="category" required>
+                    <option value="widow">Widow</option>
+                    <option value="orphan">Orphan</option>
+                    <option value="homeless">Homeless</option>
+                    <option value="abandoned">Abandoned</option>
+                    <option value="other">Other</option>
+                </select>
+
+                <label for="age">Age:</label>
+                <input type="number" id="age" name="age" required>
+
+                <label for="address">Address:</label>
+                <input type="text" id="address" name="address" required>
+
+                <label for="phone">Phone Number:</label>
+                <input type="tel" id="phone" name="phone" required>
+
+                <label for="reason">Reason for Application:</label>
+                <textarea id="reason" name="reason" rows="8" required></textarea>
+
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+    </main>
+    <script src="styles/financial-aid.js"></script>
+
+    <footer>
+        <p>&copy; 2025 Itihad Islamiyyah Uganda. All Rights Reserved.</p>
+        <p>&copy; 2025 Pearl technologies "Designer". All Rights Reserved. Whatsapp: +256701573593</p>
+    </footer>
+</body>
+</html>

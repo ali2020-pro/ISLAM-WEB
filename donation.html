@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Donation - Support Us</title>
+    <link rel="stylesheet" href="styles/donation.css">
+</head>
+<body>
+    <section id="donation-section">
+        <div class="container">
+            <!-- First Column: Donation Information -->
+            <div class="donation-info">
+                <div class="brand-div">
+                    <img src="images/logo.webp" alt="Logo" class="brand-logo">
+                    <h1 class="brand-title">ITHAD Islamiyyah Aid</h1>
+                </div>
+                <h1>Why Your Donation Matters</h1>
+                <p>At Itihad Islamiyyah Uganda, we believe in making a lasting difference in the lives of the less fortunate. Every contribution you make, no matter how big or small, has the power to transform a life.</p>
+                <p>Our organization is dedicated to providing financial aid to those in need, supporting the education of young Muslims, helping orphans, widows, and the homeless, and fostering community development.</p>
+                <p>Your donations go directly towards projects that aim to uplift the community—helping us provide food for the hungry, offer education to the underprivileged, and ensure that no one is left behind.</p>
+                <p>With your generosity, we can continue to offer hope to those who need it the most. When you donate, you don’t just give money—you give a brighter future to someone in need.</p>
+                <p>Join us today in making a difference and helping to build a strong, supportive Muslim community. Your kindness will echo in the hearts of many.</p>
+            </div>
+
+            <!-- Second Column: Donation Form -->
+            <div class="donation-form">
+                <h2>Make a Donation</h2>
+                <form action="process_donation.php" method="POST">
+                    <label for="donor-name">Full Name</label>
+                    <input type="text" id="donor-name" name="donor-name" required>
+                
+                    <label for="donor-email">Email Address</label>
+                    <input type="email" id="donor-email" name="donor-email" required>
+                
+                    <label for="donation-amount">Donation Amount (UGX)</label>
+                    <input type="number" id="donation-amount" name="donation-amount" required>
+                
+                    <label for="payment-method">Select Payment Method</label>
+                    <select id="payment-method" name="payment-method" required>
+                        <option value="airtel">Airtel Mobile Money</option>
+                        <option value="mtn">MTN Mobile Money</option>
+                    </select>
+                
+                    <button type="submit">Donate Now</button>
+                </form>
+                
+            </div>
+        </div>
+    </section>
+    <footer>
+        <p>&copy; 2025 Itihad Islamiyyah Uganda. All Rights Reserved.</p>
+        <p>&copy; 2025 Pearl technologies "Designer". All Rights Reserved. Whatsapp: +256701573593</p>
+    </footer>
+</body>
+</html>
