@@ -239,9 +239,8 @@ footer {
 }
 
 .header{
-    display:grid;
-    grid-template-columns: 200px 1fr;
-    justify-items: center;
+    display:flex;
+    justify-content: center;
 }
 
 @media (max-width: 768px){
