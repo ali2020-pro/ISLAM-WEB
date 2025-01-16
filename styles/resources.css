@@ -129,3 +129,37 @@ footer {
     grid-template-columns: 200px 1fr;
     justify-items: center;
 }
+
+/* Default styling for larger screens */
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.the-logo,
+.page-intro h1 {
+    flex: 1;
+}
+
+.page-intro h1 {
+    display: flex;
+    justify-content: center;
+}
+
+/* Responsive styling for smaller screens */
+@media (max-width: 768px) {
+    .container {
+        display: block;
+        text-align: center;
+    }
+
+    .the-logo,
+    .page-intro h1 {
+        margin-bottom: 10px;
+    }
+    logo{
+        width:100px;
+        heeight:100px;
+    }
+}
